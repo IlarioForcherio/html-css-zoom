@@ -8,6 +8,10 @@ a{
     text-decoration: none;
     color:black;
 }
+
+html{
+    font-family: sans-serif;
+}
 .flex{
     display: flex;
 }
@@ -25,15 +29,27 @@ header{
     
     align-items: center;
     justify-content: flex-end;
-    background-color: brown;
+    background-color:black;
+    padding: 5px;
 
 }
-#speaker{
-    background-color: lightgreen;
-    
-    
+#h-text,.fa-maximize{
+    background-color:#545454;
+    border-radius: 5px;
+    padding: 5px;
     
 }
+#h-text{
+    margin-right: 5px;
+}
+#speaker{
+    color: white;
+       
+}
+.fa-table-cells, .fa-maximize {
+    color: white;
+}
+
 
 /* MAIN */
 
@@ -43,4 +59,26 @@ main{
 }
 
 /* FOOTER */
+
+footer{
+    align-items: center;
+    justify-content: space-between;
+    background-color:black;
+    
+}
+
+#red-btn{
+    color: red;
+    background-color:#545454;
+    padding: 20px;
+}
+
+.f-center-icon{
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
+    padding:0px 15px;
+}
+
+
 
