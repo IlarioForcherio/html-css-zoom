@@ -56,16 +56,29 @@ header{
 
 main{
     flex-grow: 1;
+    background-color:black;
+    
 }
+.card{
+    position: relative;
+}
+#user-text{
+    color: white;
+    position: absolute;
+    font-size: 0.8rem;
+}
+
+
 
 /* FOOTER */
 
 footer{
     align-items: center;
     justify-content: space-between;
-    background-color:black;
+    background-color:#222222;
     
 }
+
 
 #red-btn{
     color: red;
@@ -76,9 +89,30 @@ footer{
 .f-center-icon{
     text-align: center;
     color: white;
-    font-size: 1.2rem;
-    padding:0px 15px;
+    padding: 0 20px;
 }
+
+.f-center-icon i{
+    font-size: 1.5rem;
+    
+}
+.f-center-icon div{
+    font-size: 0.6rem;
+    padding-top: 3px;
+}
+
+.fa-share-from-square{
+    color: green;
+}
+
+.fa-chevron-up{
+    color: rgb(242, 235, 235);
+    font-size: 0.8rem;
+    padding-top: 10px;
+}
+
+
+
 
 
 
