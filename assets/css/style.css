@@ -66,6 +66,10 @@ main{
     color: white;
     position: absolute;
     font-size: 0.8rem;
+    bottom: 0px;
+    background-color:rgba(0, 0, 0, 0.5);
+    padding: 4px 6px;
+    
 }
 
 
