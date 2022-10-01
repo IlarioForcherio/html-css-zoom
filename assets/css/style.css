@@ -58,9 +58,16 @@ main{
     flex-grow: 1;
     background-color:black;
     
+    
+}
+.card-container{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 50px;
 }
 .card{
     position: relative;
+    padding: 5px 0px;
 }
 #user-text{
     color: white;
